@@ -1,0 +1,149 @@
+material _ankit1
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			cull_software none
+			cull_hardware none
+			normalise_normals on
+			ambient 0.500000 0.500000 0.500000 0.000000
+			diffuse 0.109804 0.109804 0.109804 0.000000
+			specular 0.500000 0.500000 0.500000 0.000000 0.250000
+			emissive 0.000000 0.000000 0.000000 0.000000
+			texture_unit
+			{
+				colour_op_ex source1 src_manual src_current 0.5 0.5 0
+			}
+		}
+	}
+}
+material _ankit0
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			cull_software none
+			cull_hardware none
+			normalise_normals on
+			ambient 0.500000 0.500000 0.500000 0.258824
+			diffuse 0.401569 0.401569 0.401569 0.258824
+			specular 0.500000 0.500000 0.500000 0.258824 0.250000
+			emissive 0.000000 0.000000 0.000000 0.258824
+			texture_unit
+			{
+				colour_op_ex source1 src_manual src_current 0.0 0.5 0.5
+			}
+		}
+	}
+}
+material _ankit3
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			cull_software none
+			cull_hardware none
+			normalise_normals on
+			ambient 0.500000 0.500000 0.500000 0.247059
+			diffuse 0.800000 0.800000 0.800000 0.247059
+			specular 0.500000 0.500000 0.500000 0.247059 0.250000
+			emissive 0.000000 0.000000 0.000000 0.247059
+			texture_unit
+			{
+				colour_op_ex source1 src_manual src_current 0.5 0.0 0.5
+			}
+		}
+	}
+}
+material _ankit2
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			cull_software none
+			cull_hardware none
+			normalise_normals on
+			ambient 0.500000 0.500000 0.500000 0.000000
+			diffuse 0.800000 0.800000 0.800000 0.000000
+			specular 0.500000 0.500000 0.500000 0.000000 0.250000
+			emissive 0.000000 0.000000 0.000000 0.000000
+			texture_unit
+			{
+				colour_op_ex source1 src_manual src_current 0.5 0.5 0.5
+			}
+		}
+	}
+}
+material Template/Red
+{
+	technique
+	{
+	  pass
+	  {
+		texture_unit
+		{
+		  colour_op_ex source1 src_manual src_current 1 0 0
+		}
+	  } 
+	}
+}
+material Template/Red1
+{
+	technique
+	{
+	  pass
+	  {
+		texture_unit
+		{
+		  colour_op_ex source1 src_manual src_current 0.8 0 0
+		}
+	  } 
+	}
+}
+material Template/Green
+{
+	technique
+	{
+	  pass
+	  {
+		texture_unit
+		{
+		  colour_op_ex source1 src_manual src_current 0 1 0
+		}
+	  } 
+	}
+}
+material Template/Blue
+{
+	technique
+	{
+	  pass
+	  {
+		texture_unit
+		{
+		  colour_op_ex source1 src_manual src_current 0 0 1
+		}
+	  } 
+	}
+}
+material Template/Black
+{
+	technique
+	{
+	  pass
+	  {
+		texture_unit
+		{
+		  colour_op_ex source1 src_manual src_current 0 0 0
+		}
+	  } 
+	}
+}
